@@ -1,6 +1,7 @@
 # LangPy
 **Natural Language Processing Model** (SLM) <br />
-v1.0
+v1.0 <br />
+`pip install LangPy`
 
 ## Languages Supported
 - English
