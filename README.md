@@ -1,6 +1,6 @@
 # LangPy
 **Natural Language Processing Model** (SLM) <br />
-v1.0 <br />
+v1.1 <br />
 `pip install git+https://github.com/MitchellShibilski-Unkel/LangPy.git@main`
 
 ## Languages Supported
