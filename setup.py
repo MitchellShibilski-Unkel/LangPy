@@ -7,7 +7,7 @@ here = os.path.abspath(os.path.dirname(__file__))
 with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
     long_description = "\n" + fh.read()
 
-VERSION = 'v1.0'
+VERSION = 'v1.1'
 DESCRIPTION = 'Natural Language Processing Model'
 LONG_DESCRIPTION = '-'
 
