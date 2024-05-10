@@ -17,6 +17,14 @@ class LangPy:
             pass
         elif self.lang == "pol":
             pass
+        elif self.lang == "it":
+            pass
+        elif self.lang == "esp":
+            pass
+        elif self.lang == "ger":
+            pass
+        elif self.lang == "fr":
+            pass
         else:
             raise ValueError(f"Language is Not Supported '{self.lang}'")
         
@@ -61,6 +69,19 @@ class LangPy:
         if langTo == "en":
             english = Translator(from_lang=self.lang, to_lang="en")
             return english.translate(self.text)
-        else:
+        elif langTo == "pol":
             polski = Translator(from_lang=self.lang, to_lang="pl")
             return polski.translate(self.text)
+        elif langTo == "esp":
+            spanish = Translator(from_lang=self.lang, to_lang="spanish")
+            return spanish.translate(self.text)
+        elif langTo == "it":
+            italian = Translator(from_lang=self.lang, to_lang="italian")
+            return italian.translate(self.text)
+        elif langTo == "fr":
+            french = Translator(from_lang=self.lang, to_lang="french")
+            return french.translate(self.text)
+        else:
+            german = Translator(from_lang=self.lang, to_lang="german")
+            return german.translate(self.text)
+            
