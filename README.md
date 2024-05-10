@@ -4,8 +4,12 @@ v1.0 <br />
 `pip install git+https://github.com/MitchellShibilski-Unkel/LangPy.git@main`
 
 ## Languages Supported
-- English
-- Polski *(Polish)*
+- English | `en`
+- Polski *(Polish)* | `pol`
+- French | `fr`
+- German | `ger`
+- Spanish | `esp`
+- Italian | `it`
 
 ## Features
 - Translator
